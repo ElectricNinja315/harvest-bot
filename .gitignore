@@ -1,6 +1,6 @@
 
 *.xml
 *.iml
-safety.py
+bot/safety.py
 *.pyc
 *.xml___jb_tmp___
