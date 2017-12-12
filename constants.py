@@ -4,5 +4,5 @@ def ready_operations(bot):
     print(bot.user.id)
     print('------')
 
-github = "See my GitHub for help. " \
+github = "See my GitHub for help and other information. " \
          "https://github.com/ElectricNinja315/harvest-bot"
