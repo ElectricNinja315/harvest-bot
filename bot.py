@@ -18,7 +18,6 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content == "!big noob help":
-        await client.send_message(message.channel, "See my GitHub for more information on my commands.")
-        await client.send_message(message.channel, "https://github.com/ElectricNinja315/harvest-bot")
+        await client.send_message(message.channel, github)
 
 client.run(token)
