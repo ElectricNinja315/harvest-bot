@@ -1,8 +1,8 @@
 # imports
 import discord
-import asyncio
-from constants import *
-from safety import token
+
+from bot.constants import *
+from bot.safety import token
 
 client = discord.Client()
 
