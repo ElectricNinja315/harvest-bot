@@ -1,6 +1,5 @@
 # imports
 import discord
-
 from bot.constants import *
 from bot.safety import token
 
@@ -16,5 +15,7 @@ async def on_ready():
 async def on_message(message):
     if message.content == "!big noob help":
         await client.send_message(message.channel, github)
+    elif message.content == "!meme music":
+        await client.send_message(message.channel, "!music " + meme_music)
 
 client.run(token)
