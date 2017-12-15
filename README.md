@@ -14,3 +14,6 @@ While we are not currently open to contribution, sorry.
 
 ## License
 MIT License
+
+## Coming Soon
+- Mild Bravery
