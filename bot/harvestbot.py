@@ -21,4 +21,19 @@ async def on_message(message):
     elif message.content == "!meme music":
         await client.send_message(message.channel, "!music " + meme_music)
 
+    elif message.content.startswith("!copy"):
+        to_copy = message.content[6:]   # text to copy
+        name = message.author.name  # username
+
+        fo = open(r'userstexts/%s.txt' % name, "w")  # init file object
+        fo.write(to_copy)   # write text to copy to document
+        fo.close()  # close file object
+
+        await client.send_message(message.channel, "Your message has been saved.")
+
+    elif message.content == "!paste":
+        name = message.author.name
+        fo = open(r'userstexts/%s.txt' % name, "r")  # init file object
+        await client.send_message(message.channel, fo.read())   # send the user's text
+
 client.run(token)
