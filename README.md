@@ -7,7 +7,9 @@ Use [this link](https://discordapp.com/oauth2/authorize?client_id=38926187197222
 
 ## Commands
 ### Memes
-!meme music - Queues up the current meme song, which changes occassionally.
+- !meme music - Queues up the current meme song, which changes occassionally.
+- !copy - The bot copies the text after "!copy"
+- !paste - The bot pastes the text you copied before
 
 ## Contribution
 While we are not currently open to contribution, sorry.
