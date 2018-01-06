@@ -38,6 +38,7 @@ async def on_message(message):
             await client.send_message(message.channel, fo.read())   # send the user's text
             fo.close()
         except FileNotFoundError:   # if nothing is copied
-            await client.send_message(message.channel, "You do not currently have anything copied.")
+            await client.send_message(message.channel, "You do not currently have anything copied."
+                                                       "Use !copy to copy.")
 
 client.run(token)
