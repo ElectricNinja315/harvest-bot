@@ -7,9 +7,14 @@ Use [this link](https://discordapp.com/oauth2/authorize?client_id=38926187197222
 
 ## Commands
 ### Memes
-- !meme music - Queues up the current meme song, which changes occassionally.
-- !copy - The bot copies the text after "!copy"
-- !paste - The bot pastes the text you copied before
+- **!meme music** - Queues up the current meme song, which changes occassionally.
+- **!copy** - The bot copies the text after "!copy"
+- **!paste** - The bot pastes the text you copied before
+### Mild Bravery
+Gives the user a:
+- **Champion** to select
+- **Build** to use
+- **Role** to play
 
 ## Contribution
 While we are not currently open to contribution, sorry.
@@ -18,4 +23,4 @@ While we are not currently open to contribution, sorry.
 MIT License
 
 ## Coming Soon
-- Mild Bravery
+Nothing currently planned.
