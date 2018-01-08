@@ -48,4 +48,4 @@ async def on_message(message):
         role_chosen = roles[randint(0, (len(roles) - 1))]
         await client.send_message(message.channel, build_chosen + " " + champion_chosen + " " + role_chosen + ".")
 
-client.run(token)
+client.run(token)   # runs client
