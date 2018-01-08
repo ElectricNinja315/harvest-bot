@@ -2,6 +2,7 @@
 import discord
 from bot.constants import *
 from bot.safety import token
+from random import randint
 
 client = discord.Client()   # initialize client object
 
@@ -40,5 +41,11 @@ async def on_message(message):
         except FileNotFoundError:   # if nothing is copied
             await client.send_message(message.channel, "You do not currently have anything copied."
                                                        "Use !copy to copy.")
+
+    elif message.content == "!mildbravery":     # our main feature
+        build_chosen = builds[randint(0, (len(builds) - 1))]
+        champion_chosen = champions[randint(0, (len(champions) - 1))]
+        role_chosen = roles[randint(0, (len(roles) - 1))]
+        await client.send_message(message.channel, build_chosen + " " + champion_chosen + " " + role_chosen + ".")
 
 client.run(token)

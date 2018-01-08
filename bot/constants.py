@@ -150,3 +150,26 @@ champions = [
     "Zoe",
     "Zyra"
 ]
+
+builds = [
+    "Full AP",
+    "Full AD",
+    "Full lethality",
+    "Full tank",
+    "Full attack Speed",
+    "Full movement Speed",
+    "On-hit",
+    "Crit",
+    "Full CDR",
+    "Hybrid AP + AD",
+    "Bruiser",
+    "Full lifesteal"
+]
+
+roles = [
+    "ADC",
+    "mid",
+    "top",
+    "supp",
+    "jungle"
+]
